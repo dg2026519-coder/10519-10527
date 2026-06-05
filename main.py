@@ -30,6 +30,16 @@ while b.pos.y > -4.5:
     if ' ' in k :
         v = v + g * dt
         b.pos = b.pos + v * dt 
+        
+b = box(pos=vector(0, 4, 0), radius=0.3,)
+v = vector(0, 0, 0)
+g = vector(0, -9.8, 0)
+dt = 0.02
+
+while b.pos.y > -4.5:
+    rate(60)
+    v = v + g * dt
+    b.pos = b.pos + v * dt
     
         
 
