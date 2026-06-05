@@ -1,3 +1,4 @@
+Web VPython 3.2
 ground = box(pos=vector(0, -5, 0), size=vector(10, 0.2, 4), color=color.blue)
 
     
@@ -11,7 +12,7 @@ v = vector(3.0, 0, 0)
 dt = 0.02
 
 t = 0
-while t < 8:
+while t < 8 and pos.y < -4.5
     rate(60)
     b.pos = b.pos + v * dt
     if b.pos.x > 5.6 or b.pos.x < -5.6:
@@ -29,31 +30,7 @@ while b.pos.y > -4.5:
         a.axis.y -= 0.5
     if ' ' in k :
         v = v + g * dt
-        b.pos = b.pos + v * dt 
-        
-b = box(pos=vector(0, 4, 0), radius=0.3,)
-v = vector(0, 0, 0)
-g = vector(0, -9.8, 0)
-dt = 0.02
-
-while b.pos.y > -4.5:
-    rate(60)
-    v = v + g * dt
-    b.pos = b.pos + v * dt
-    
-        
-
-
-v = vector(3.0, 0, 0)
-dt = 0.02
-
-t = 0
-while t < 8:
-    rate(60)
-    a.pos = a.pos + v * dt
-    if a.pos.x > 5.6 or a.pos.x < -5.6:
-        v = vector(-v.x, v.y, v.z)
-    t = t + dt
+        b.pos = b.pos + v * dt
 
 
 
