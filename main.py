@@ -1,7 +1,8 @@
 Web VPython 3.2
-ground = box(pos=vector(0, -5, 0), size=vector(10, 0.2, 4), color=color.blue)
+ground = box(pos=vector(0, -5, 0), size=vector(10, 0.2, 4), color=color.green)
 
-    
+r = ring(pos=vector(3.7, -4, 0), size=vector(0.2, 2,2, 2,2), color=color.white, axis = vec(0,1,0))
+
 v = vector(0, 0, 0)
 g = vector(0, -9.8, 0)
 dt = 0.02
