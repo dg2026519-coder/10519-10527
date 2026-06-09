@@ -20,7 +20,4 @@ x,y,z값을 더 정확하고 깔금하게 알게되었고 axis코드를 알게 �
 
 6월9일
 저번시간 진도 이후, 색깔을 더 추가할 계획이며 추가 한 뒤에는 코드를 설명하기 위해 공부 해서 만점 받을 것이다.
- b.pos.x = b.pos.x + random.uniform(-1,1)
-            b.pos.y = b.pos.y + random.uniform(-1,1)
-            b.pos.z = b.pos.z + random.uniform(-10,1)
-            
+
